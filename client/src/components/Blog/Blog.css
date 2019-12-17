@@ -1,0 +1,20 @@
+.advantage-blog{
+    width: 80%;
+    margin: 0 auto;
+}
+.advantage-blog img{
+    width: 100%;
+    height: 350px;
+}
+.img-blog img{
+    height: 140px;
+}
+.content-blog{
+    margin-top: 20px;
+}
+.img-blog-main img{
+    height: 500px;
+}
+.footerBlog{
+    position: relative;
+}

@@ -1,0 +1,48 @@
+.content-About{
+    width: 80%;
+    margin: 0 auto;
+}
+.imgAbout img{
+    width: 400px;
+    position: relative;
+    animation-name: leaves;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition: ease-in-out;
+}
+.about{
+    margin-top: 50px;
+}
+.btnAbout a{
+    color: white;
+
+}
+.ant-btn-danger{
+    padding: 2px 20px !important;
+}
+@keyframes leaves {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+.footerAbout{
+    position: relative;
+}
+.socialMedia a img{
+    width: 110px;
+    transition:all 0.2s linear;
+    position: relative;
+    padding: 0 20px;
+}
+.socialMedia a img:hover{
+    transform:scale(1.05);
+}
+.btnshoppingproduct{
+    margin-top: 20px;
+}

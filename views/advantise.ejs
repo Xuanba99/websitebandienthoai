@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--
+* CoreUI - Free Bootstrap Admin Template
+* @version v2.1.15
+* @link https://coreui.io
+* Copyright (c) 2018 creativeLabs Łukasz Holeczek
+* Licensed under MIT (https://coreui.io/license)
+-->
+<!-- trang nay la quan li san pham -->
+<html lang="en">
+  <head>
+    <base href="./">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,jQuery,CSS,HTML,RWD,Dashboard">
+    <title>CoreUI Free Bootstrap Admin Template</title>
+    <!-- Icons-->
+   
+    <!-- Main styles for this application-->
+    <link href="/css/style.css" rel="stylesheet"><link href="/css/product.css" rel="stylesheet">
+    
+    
+    <link href="vendors/pace-progress/css/pace.min.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics-->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      // Shared ID
+      gtag('config', 'UA-118965717-3');
+      // Bootstrap ID
+      gtag('config', 'UA-118965717-5');
+    </script>
+ 
+  </head>
+  <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
+    <header class="app-header navbar">
+      <button class="navbar-toggler sidebar-toggler d-lg-none mr-auto" type="button" data-toggle="sidebar-show">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img class="navbar-brand-full" src="/img/brand/logo.svg" width="89" height="25" alt="CoreUI Logo">
+        <img class="navbar-brand-minimized" src="/img/brand/sygnet.svg" width="30" height="30" alt="CoreUI Logo">
+      </a>
+      <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="nav navbar-nav d-md-down-none">
+        <li class="nav-item px-3">
+          <a class="nav-link" href="">Trang user</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="#">Nhân viên</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" href="#">Cài đặt</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item d-md-down-none">
+          <a class="nav-link" href="#">
+            <i class="icon-bell"></i>
+            <span class="badge badge-pill badge-danger">5</span>
+          </a>
+        </li>
+        <li class="nav-item d-md-down-none">
+          <a class="nav-link" href="#">
+            <i class="icon-list"></i>
+          </a>
+        </li>
+        <li class="nav-item d-md-down-none">
+          <a class="nav-link" href="#">
+            <i class="icon-location-pin"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <img class="img-avatar" src="/img/avatars/6.jpg" alt="admin@bootstrapmaster.com">
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="dropdown-header text-center">
+              <strong>Account</strong>
+            </div>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-bell-o"></i> Updates
+              <span class="badge badge-info">42</span>
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-envelope-o"></i> Messages
+              <span class="badge badge-success">42</span>
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-tasks"></i> Tasks
+              <span class="badge badge-danger">42</span>
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-comments"></i> Comments
+              <span class="badge badge-warning">42</span>
+            </a>
+            <div class="dropdown-header text-center">
+              <strong>Settings</strong>
+            </div>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-user"></i> Profile</a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-wrench"></i> Settings</a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-usd"></i> Payments
+              <span class="badge badge-secondary">42</span>
+            </a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-file"></i> Projects
+              <span class="badge badge-primary">42</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-shield"></i> Lock Account</a>
+            <a class="dropdown-item" href="#">
+              <i class="fa fa-lock"></i> Logout</a>
+          </div>
+        </li>
+      </ul>
+      <button class="navbar-toggler aside-menu-toggler d-md-down-none" type="button" data-toggle="aside-menu-lg-show">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <button class="navbar-toggler aside-menu-toggler d-lg-none" type="button" data-toggle="aside-menu-show">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </header>
+    <div class="app-body">
+      <div class="sidebar">
+        <nav class="sidebar-nav">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="home">
+                <i class="nav-icon icon-speedometer"></i> Quản lí
+                <span class="badge badge-primary">NEW</span>
+              </a>
+            </li>
+            <li class="nav-title">Quản lí</li>
+            <li class="nav-item">
+              <a class="nav-link" href="product">
+                <i class="nav-icon icon-drop"></i>Quản lí sản phẩm</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="addblog">
+                <i class="nav-icon icon-pencil"></i>Quản lí bài viết</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="feedback">
+                <i class="nav-icon icon-pencil"></i>Phản hồi</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="addadvertise">
+                <i class="nav-icon icon-pencil"></i>Quảng cáo</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="order">
+                <i class="nav-icon icon-pencil"></i>Đơn hàng</a>
+             </li>
+            
+            
+            
+          
+          </ul>
+        </nav>
+        <button class="sidebar-minimizer brand-minimizer" type="button"></button>
+      </div>
+      <main class="main">
+        <!-- Breadcrumb-->
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">Quản lí</li>
+          <li class="breadcrumb-item">
+            <a href="colors.html">Quản lí sản phẩm</a>
+          </li>
+          
+          <!-- Breadcrumb Menu-->
+          <li class="breadcrumb-menu d-md-down-none">
+            <div class="btn-group" role="group" aria-label="Button group">
+              <a class="btn" href="#">
+                <i class="icon-speech"></i>
+              </a>
+              <a class="btn" href="index.html">
+                <i class="icon-graph"></i>Quản lí</a>
+              <a class="btn" href="#">
+                <i class="icon-settings"></i>Cài đặt</a>
+            </div>
+          </li>
+        </ol>
+
+      <!--   quan li san pham -->
+        <!--   quan li san pham -->
+          <!--   quan li san pham -->
+            <!--   quan li san pham -->
+              <!--   quan li san pham -->
+              <a href="/admin/home">Trở về</a>
+              <h1 class="text-center">Quảng cáo của đối tác</h1>
+              <div class="body-product">
+                <div class="centerr">
+                  <form method="POST" enctype="multipart/form-data">
+                    <table border="1" class="tableproduct">
+                      <tr>
+                        <th>ID</th>
+                        <th width="200">Tên quảng cáo</th>
+                        <th>Hình ảnh</th>
+                        
+                      </tr>
+                      <%for(var [i,item] of advertises.entries()){%>
+                      <tr onclick="window.location='./addadvertise?page=<%= curPage%>&id=<%=item._id%>'" style="cursor: pointer"
+                        bgcolor="<%= (i % 2 == 0) ? '#fff' : '#fea' %>">
+          
+                        <td><%= item._id%></td>
+                        <td ><%= item.name%></td>
+                        <td><img style="cursor: pointer;" width="200" heigth="250" src="data:image/jpg;base64,<%=item.image%>" />
+                        </td>
+                      </tr>
+                      <% }%>
+                      <tr>
+                        <td colspan="8">
+                          <%  for (var index = 1; index <= noPages; index++) {
+                              if (index == curPage) { %>
+                          | <b><%=index%></b> |
+                          <%    } else {  %>
+                          | <a href="./addadvertise?page=<%=index%>"><%=index%></a> |
+                          <%    } } %>
+                        </td>
+                      </tr>
+          
+          
+          
+          
+                    </table>
+                  </form>
+                </div>
+                
+              </div>
+              
+
+
+
+              <h1>Thêm quảng cáo</h1>
+           
+                 <label>Vui lòng chọn ảnh có kích thước 850 x 350</label><br/>
+                 <label>Chí phí treo quảng cáo là 20 đô cho 7 ngày.</label><br/>
+                 <div class="formdetail">
+                  <form method="POST" enctype="multipart/form-data">
+                    <table>
+                      <tr>
+                        <td>ID</td>
+                        <td><input type="text" name="txtID" value="<%= (prod != null) ? prod._id : '' %>" readonly /></td>
+                      </tr>
+                      <tr>
+                        <td>Tên quảng cáo</td>
+                        <td><input type="text" name="txtName" value="<%= (prod != null) ? prod.name : '' %>" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Hình ảnh</td>
+                        <td><input type="file" name="fileImage"  /></td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>
+                          <input type="submit" formaction="./addvertise" class="btnAddproduct" value="Thêm quảng cáo" />
+                          <%  if (prod) {  %>
+                          <input  type="submit" formaction="./updateadvetise" class="btnupdate" value="Cập nhật" />
+                          <input type="submit" formaction="./deleteadvertise" class="btndelete" value="Xóa"
+                            onclick="return confirm('ARE YOU SURE?')" />
+                          <%  } %>
+                        </td>
+                      </tr>
+                    </table>
+                  </form>
+                </div>
+                  
+
+
+
+
+
+         
+      </main>
+      <aside class="aside-menu">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#timeline" role="tab">
+              <i class="icon-list"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
+              <i class="icon-speech"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+              <i class="icon-settings"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- Tab panes-->
+        
+      </aside>
+    </div>
+    <footer class="app-footer">
+      <div>
+        <a href="https://coreui.io">CoreUI</a>
+        <span>&copy; 2018 creativeLabs.</span>
+      </div>
+      <div class="ml-auto">
+        <span>Powered by</span>
+        <a href="https://coreui.io">CoreUI</a>
+      </div>
+    </footer>
+    <!-- CoreUI and necessary plugins-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/pace-progress/pace.min.js"></script>
+    <script src="node_modules/perfect-scrollbar/dist/perfect-scrollbar.min.js"></script>
+    <script src="node_modules/@coreui/coreui/dist/js/coreui.min.js"></script>
+    <!-- Plugins and scripts required by this view-->
+    <script src="js/colors.js"></script>
+  </body>
+</html>

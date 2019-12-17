@@ -1,0 +1,33 @@
+.blog-body{
+    margin-left: 50px;
+}
+input[type="text"]{
+    width: 400px;
+}
+.tableproduct{
+    background-color: #ffff;
+}
+.btnAddproduct{
+    border: none;
+    border:1px solid #1d9bc6;
+    background-color: #1d9bc6;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 6px 20px;
+}
+.btnupdate{
+    border: none;
+    border:1px solid #1ef71b;
+    background-color: #1ef71b;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 6px 20px;
+}
+.btndelete{
+    border: none;
+    border:1px solid #ff4c64;
+    background-color: #ff4c64;
+    color: #ffff;
+    border-radius: 5px;
+    padding: 6px 20px;
+}

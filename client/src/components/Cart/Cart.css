@@ -1,0 +1,128 @@
+.cart-title{
+    width: 50%;
+    position: relative;
+    left: 380px;
+}
+.cart-border{
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+}
+
+.cart-content{
+    background-color:white;
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: 0px 2px 10px gray;
+}
+.cart-title,.cart-h2 {
+    float: left;
+}
+.cart-info{
+    padding-top: 15px;
+}
+.cart-product{
+    
+    position: relative;
+    right: 200px;
+     
+}
+.cart-total{
+    border-bottom: 1px solid gray;
+    position: relative;
+    left: 220px;
+
+}
+.cart-h3-total{
+    margin-left: 500px;
+    padding: 20px 0;
+}
+.cart-text  {
+    padding: 4px 180px !important;
+    margin-left: 105px;
+    margin-bottom: 10px;
+    border: none;
+    border:1px solid #eee;
+}
+.cart-btnBuy{
+    background: #669999; 
+    border:0 none;
+    font-size: 20px;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: honeydew;
+    margin-left: 190px;
+    height: 53px;
+    text-align: center;
+    padding: 1px 25px 0;
+}
+.cart-btnBuy:hover{
+background-color: #454545
+}
+.cart-btnBuy:active {
+  background-color: #669999;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.cart-btnCancel{
+    font-size: 20px;
+    background: #ce2323; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    color: honeydew;
+    margin-left: 100px;
+    height: 53px;
+    text-align: center;
+    padding: 1px 35px 0;
+}
+.cart-btnCancel:hover{
+    background-color: #454545
+    }
+.cart-btnCancel:active {
+      background-color: #ce2323;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+.carth2{
+position: relative;
+left: 235px;
+}
+.cart-img{
+    height: 50px;
+}
+.name-cart-product th{
+    font-size: 16px;
+}
+.quantity{
+    position: absolute;
+    border:1px solid #b7b7b7;
+    padding: 5px 0px !important;
+    background:rgba(0,0,0,0);
+}
+.btnTinhtien{
+    padding: 5px 20px;
+    background-color: cornflowerblue;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 7px;
+    position: relative;
+    left: 380px;
+    top: 55px;
+}
+.namecart{
+    border: none;
+    position: absolute;
+    z-index: 0;
+    margin-top: -3px;
+}
+ 
+ 

@@ -1,0 +1,97 @@
+.detail-body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffff;
+}
+.imageproduct{
+    height: 500px;
+    cursor: crosshair;
+}
+.easyzoom{
+    cursor: crosshair;
+
+}
+.div-nameofproduct{
+    border-bottom: 1px solid #eee;
+}
+.price{
+    font-weight: bold;
+}
+.shipnow{
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    width: 90%;
+}
+.dashboard{
+    color: red;
+    font-size: 20px;
+}
+.btnbuy-addtocart{
+    border: 1px solid r#fc0505;
+    padding: 15px 140px;
+    font-weight: bold;
+     
+    font-size: 20px;
+    background-color: #fc0505; 
+    border: none;
+    
+}
+.btnbuy-addtocart a{
+   color: #ffff;
+    
+}
+.btnbuy-addtocart:hover{
+    background-color: #cd1818;
+}
+.iconcamket{
+    color: #e78793;
+}
+.sidebardetail{
+    border-right: 1px solid #c4c4c4;
+   
+}
+.sidebardetailleft{
+    padding-left: 10px;
+}
+.detail-product-main{
+    padding-bottom: 30px;
+}
+.easyzoom img{
+    margin-top: 20px;
+  }
+ .soluong{
+     border:1px solid #b6b6b6;
+     margin-bottom: 20px;
+     margin-left: 10px;
+ } 
+ .text-btnmuangay{
+     color: white;
+ }
+ .div-nameofproduct1 h2{
+     margin-left: 10px;
+ }
+ .footerDetail{
+     position: relative;
+     
+ }
+ .advertise-detail img{
+     width: 265px;
+ }
+/* Shrink wrap strategy 1
+.easyzoom {
+    float: left;
+}
+.easyzoom img {
+    display: block;
+}
+
+
+/* Shrink wrap strategy 2 */
+/* .easyzoom {
+    display: inline-block;
+}
+.easyzoom img {
+    vertical-align: bottom;
+}
+  */ 

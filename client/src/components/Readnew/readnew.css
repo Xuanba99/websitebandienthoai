@@ -1,0 +1,26 @@
+
+.body-news{
+background-color: #fff;
+}
+.readnew-banner img{
+    width: 250px;
+}
+.header-news {
+    margin-top: 40px;
+}
+.header-news h3{
+    font-size: 18px;
+    color: gray;
+}
+.header-news h1{
+    font-size: 45px;
+    font-weight :bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.body-news p{
+    font-size: 18px;
+}
+.advertise-main{
+    padding-bottom: 20px;
+}
+ 
